@@ -55,7 +55,14 @@ function FloorPlan() {
           updateImageMetadata={updateImageMetadata}/>
           </div>
           <div className='end-body'>
-            <button className='save-btn' onClick={captureVisibleImage}>Save</button>   
+            <button 
+            className='save-btn' 
+            onClick={captureVisibleImage} 
+            style={{
+              display: images.length === 0 ? 'none' : 'inline-block' 
+          }}>
+              Save
+            </button>   
           </div>
         </div>
         <div className='FPFooter'>
