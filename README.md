@@ -20,7 +20,7 @@ the user can add image by clicking on the add button and choosing the file from 
 
 <img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss2.png"/>
 
-then the user can drag the image into the safe zone and make modifications, in the example below, the image is rotated and zoomed in
+then the user can drag the image into the safe zone and make modifications, in the example below, the image is rotated and zoomed out
 
 <img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss3.png"/>
 
