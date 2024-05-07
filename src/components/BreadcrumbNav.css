@@ -1,0 +1,23 @@
+.Blink {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul.bcn li:nth-child(n+3):before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0"; 
+}
+
+ul.bcn li {
+    color: #999999;
+}
+
+ul.bcn li:first-child {
+    margin-right: 50px;
+    color: black;
+    
+}
+ul.bcn li:last-child {
+    color: black;
+}

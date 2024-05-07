@@ -1,0 +1,19 @@
+.FPcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding-left: 40px;
+    height:100%;
+}
+
+.FPHeader {
+    padding:0;
+    width: 100%;
+    font-size: 80%;
+}
+
+.FPBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}

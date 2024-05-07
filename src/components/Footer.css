@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #f8f8f8; 
+    border-top: 1px solid #e7e7e7; 
+    color: #777777;
+    height: 30px;
+}
+
+.footer-left, .footer-right {
+    font-size: 13px; 
+}
+
+.footer-right {
+    text-align: right; 
+}
+
+.footer-link {
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+}

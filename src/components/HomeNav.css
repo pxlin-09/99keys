@@ -1,0 +1,33 @@
+.navbar-menu {
+    width: 60px; /* Fixed width */
+    height: 100vh;
+    background-color: #FF5733;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.15);
+    transition: all 0.5s ease;
+  }
+  
+  .navbar__list {
+    font-size: 150%;
+    color: white;
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 0px;
+    overflow-y: auto;
+  }
+
+.link {
+    color: white;
+  }
+  
+  .navbar__li-box {
+    height:auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar__li-box:hover {
+    border-left: 7px solid white;
+    cursor: pointer;
+  }
