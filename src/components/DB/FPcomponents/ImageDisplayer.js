@@ -10,7 +10,7 @@ function ImageDisplayer({ displayedImage, setDisplayedImage, planInfo, setPlanIn
 
     
 
-    const default_zoom = 0.45;
+    const default_zoom = 1.0;
     const default_pos = {x:160, y:120};
 
     const handleDragStart = (e) => {
@@ -52,6 +52,7 @@ function ImageDisplayer({ displayedImage, setDisplayedImage, planInfo, setPlanIn
             floorType: image.floorType,
           });
         setZoom(default_zoom);
+        setRotation(0);
         setPosition(default_pos);
     };
 
