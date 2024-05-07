@@ -41,6 +41,7 @@
     background-color: transparent;
     border: none;
     font-size: 150%;
+    cursor: pointer;
 }
 
 .rot-btn button:hover {
@@ -104,4 +105,5 @@
     padding: 8px;
     margin: 10px 0;
     color: #FF5733;
+    cursor: pointer;
   }

@@ -17,3 +17,20 @@
     flex-direction: row;
     flex: 1;
 }
+
+.save-btn {
+    border-radius: 5px;
+    background-color: #FF5733;
+    color: white;
+    font-size: 130%;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.end-body {
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    margin-right: 40px;
+}

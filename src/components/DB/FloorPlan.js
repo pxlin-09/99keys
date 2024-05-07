@@ -47,14 +47,19 @@ function FloorPlan() {
         <div className='FPHeader'>
           <h1>Adding Floor Plans</h1>
         </div>
-        <div className='FPBody'>
-        <ImageScroller setImages={setImages} images={images} className='image-scroller' />
-        <ImageDisplayer setDisplayedImage={setDisplayedImage} 
-        displayedImage={displayedImage} planInfo={planInfo} setPlanInfo={setPlanInfo} 
-        updateImageMetadata={updateImageMetadata}/>
+        <div className='FPBody-container'>
+          <div className='FPBody'>
+          <ImageScroller setImages={setImages} images={images} className='image-scroller' />
+          <ImageDisplayer setDisplayedImage={setDisplayedImage} 
+          displayedImage={displayedImage} planInfo={planInfo} setPlanInfo={setPlanInfo} 
+          updateImageMetadata={updateImageMetadata}/>
+          </div>
+          <div className='end-body'>
+            <button className='save-btn' onClick={captureVisibleImage}>Save</button>   
+          </div>
         </div>
         <div className='FPFooter'>
-          <button onClick={captureVisibleImage}>Save</button>
+          
         </div>
     </div>
   );
