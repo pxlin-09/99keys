@@ -25,6 +25,7 @@
     width: 35vw;
     height: 35vh;
     border: 2px dotted #000;
+    background-color: lightgray;
     justify-content: center;
     overflow: hidden;
 }

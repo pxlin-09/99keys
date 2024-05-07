@@ -59,7 +59,7 @@ function FloorPlan() {
             className='save-btn' 
             onClick={captureVisibleImage} 
             style={{
-              display: images.length === 0 ? 'none' : 'inline-block' 
+              display: displayedImage === "" ? 'none' : 'inline-block' 
           }}>
               Save
             </button>   
