@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# How to Run Locally
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run this project, simply clone and run:
 
-## Available Scripts
+`npm install`
 
-In the project directory, you can run:
+then 
 
-### `npm start`
+`yarn start` or `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Basic Functions:
 
-### `npm test`
+opening page, in dashboard/floorplans where no image is added
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss1.png"/>
 
-### `npm run build`
+the user can add image by clicking on the add button and choosing the file from local device
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss2.png"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+then the user can drag the image into the safe zone and make modifications, in the example below, the image is rotated and zoomed in
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss3.png"/>
 
-### `npm run eject`
+the user may also set the fields for the image and save it. Clicking the save button will add the resulting image and fields to the left scroll bar, if the user wants to drag saved images back into safe zone, the saved fields will also appear
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss4.png"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Other pages are implemented with a dummy page and a corresponding URL, the horizontal navbar has a responsive path instead of a dummy value, this is done to improve scalability
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss5.png"/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Finally, the about, contact, support buttons on the bottom of the page redirects to 99Key's home page.
