@@ -28,7 +28,7 @@ the user may also set the fields for the image and save it. Clicking the save bu
 
 <img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss4.png"/>
 
-Other pages are implemented with a dummy page and a corresponding URL, the horizontal navbar has a responsive path instead of a dummy value, this is done to improve scalability
+Other pages are implemented with a dummy page and a corresponding URL. The horizontal navbar has a responsive path instead of a dummy value, clicking on the location on the navbar will bring you to the corresponding page. This is done to improve scalability
 
 <img width=500 src="https://github.com/pxlin-09/99keys/blob/main/screenshots/ss5.png"/>
 
