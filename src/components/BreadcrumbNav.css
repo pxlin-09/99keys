@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+.bnav {
+    display: flex;
+    flex-direction: row;
+}
 ul.bcn li:nth-child(n+3):before {
     padding: 8px;
     color: black;
@@ -20,4 +24,26 @@ ul.bcn li:first-child {
 }
 ul.bcn li:last-child {
     color: black;
+}
+
+.nav-icons {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 40px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+   
+}
+
+.fa-bell {
+    color: #FF5733;
+    padding-right: 3vw;
+}
+
+.group-select {
+    height: 4vh;
+    border: 1px solid lightgray;
+    border-radius: 10px;
 }
